@@ -81,6 +81,13 @@ ul{
     list-style:none;
     padding: 0;
 }
+.portfolio-name {
+    padding-top: 20px;
+    margin-top: 25px;
+}
+.bottom {
+    visibility: hidden;
+}
 /*MEDIA QUERIES*/
 
 @media (min-width: 768px) {
@@ -97,14 +104,105 @@ ul{
 .main-nav ul {
     padding: 0;
 }
+
+.initial {
+    height: 300px;
+    margin-left: 25px;
+    margin-right: 25px;
+}
 .imagen {
     float:right;
+    width: 40%;
+    height: 250px;
 }
-.primary-content p {
-text-align:center;
+.texto {
+    float: left;
+    width: 50%;
+}
+.portfolio-name {
+    height:180%;
 }
 .primary-content {
-    width: 90%;
+    width: 100%;
 }
-    }
+ .marketing {
+    float:left;
+    width: 40%;
+    margin-top: 22px;
+}
+ .search-page {
+     float: right;
+     width: 40%;
+     margin-top: 22px;
+ }
+ .travel-app {
+    float:left;
+    width: 40%;
+    margin-top: 22px;
+}
+.map {
+    float:right;
+    width: 40%;
+    margin-top: 22px;
+}
+.photo-gallery {
+    float:left;
+    width: 40%;
+    margin-top: 22px;
+}
+.calculator {
+    float:right;
+    width: 40%;
+    margin-top: 22px;
+}
+ .wrapper {
+     width: 100%;
+     margin: 0;
+     padding: 0;
+
+ } 
+ .clearfix {
+   content:"";
+   display: table;  
+   clear: both;
+ }
+ #contact p {
+     margin-left: 25%;
+     margin-right: 25%;
+ }
+ .footer-nav .back {
+     display: none;
+ }
+ .bottom {
+     visibility: visible;
+     float: right;
+}
+.bottom li {
+    display: inline-block;
+    margin-right: 15px;
+    padding: 0;
+}
+.bottom li a {
+    text-decoration: none;
+    color: black;
+}
+.footer-nav .name {
+    margin-left: 15px;
+    padding: 0;
+    margin-top: 16px;
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+ 
 
