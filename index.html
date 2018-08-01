@@ -1,94 +1,71 @@
-<header> 
-    <title> Proyecto-2 </title>
-    <link href="css/styles.css" rel="stylesheet" type="text/css">
-    <html lang="en"></html>
-</header>
-    <head class="introduction">
-<h1>Marcos Rodríguez</h1>
-<ul class="list">
-    <li href="#" class="l1"><strong>Home</strong></li>
-    <li class="l1"><a href="#portfolio"><strong>Portfolio</strong></a></li>
-    <li href="#" class="l1"><strong>Contact</strong></li>
-</ul>
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Proyecto 2</title>
+        <meta name="viewport" content="widht=device-width,initial-scale=1.0">
+        <link href="css/styles.css" rel="stylesheet" type="text/css">
     </head>
-    <body>
-            <a id="Top"></a>
-   <div class="student">
-         <img src="images/responsive-layout-profile.png" alt="Carlos posing" class="image-profile">
-         <h2>Hi!I'm a self-taught software engineer (college education apart) with a business-oriented vision.</h2>
-
-        </div>
-
-    
-  <h2 id="portfolio">PORTFOLIO</h2>
-  
-   <div class="marketing-page" >
-       <center>
-        <img src="images/portfolio-1.png" alt="Marketing page" >
-        <h1>Marketing Page</h1>
-        <h2>This project shows the front page of a marketing website meant for a specific business I'm interested in.</h2>
-        </center>
-   </div> 
-
-  
-
-   <div class="Search-Page">
-        <center>
-    <img src="images/portfolio-2.png" alt="Search page">
-    <h1>Search Page</h1> 
-    <h2>Texto</h2>
-    </center>
-   </div>
-
-   <div class="Travel App">
-        <center>
-    <img src="images/portfolio-3.png" alt="Travel App">
-    <h1>Travel App</h1> 
-    <h2>Texto</h2>
-    </center>
-   </div>
-
-   
-   <div class="Map of Favorite Spots">
-        <center>
-    <img src="images/portfolio-4.png" alt="Map of Favorite Spots">
-    <h1>Map of Favorite Spots</h1> 
-    <h2>Texto</h2>
-    </center>
-   </div>
-
-   <div class="Photo Gallery">
-        <center>
-    <img src="images/portfolio-5.png" alt="Photo Gallery">
-    <h1>Photo Gallery</h1> 
-    <h2>Texto</h2>
-    </center>
-   </div>
-
-   <div class="Calculator">
-        <center>
-    <img src="images/portfolio-6.png" alt="Calculator">
-    <h1>Calculator</h1> 
-    <h2>Texto</h2>
-    </center>
-   </div>
-
-   <div class="contact">
-       <center>
-    <h1>CONTACT</h1>
-    <h2>texto</h2>
-    <ul >
-        <li>Phone 666 666 666</li>
-        <li>Email Carlos@20h.es</li>
-    </ul>
-    </center>
-   </div>
+<body>
+        <header class="main-header">
+                <h1>Marcos Rodríguez</h1>
+                <nav>
+                <ul class="main-nav">
+                    <li><a  href="#">HOME</a></li>
+                    <li><a href="#portfolio">PORTFOLIO</li></a>
+                    <li><a href="#contact">CONTACT</li></a>
+                </ul>
+                </nav>
+        </header>
+            <main class="primary-content">
+                <section>
+                    <img src="images/responsive-layout-profile.png" alt="Image profile" class="imagen"/>
+                    <p>Hi! I'm a front-end developer who loves responsive design and css. I recently finished a degree in front-end web development at Treehouse and am excited to put all my skills to use!</p>
+                </section>
+            <h2>PORTFOLIO</h2>
+                <section id="portfolio">
+                        <h2>Marketing Page</h2>
+                            <img src="images/portfolio-1.png" alt="marketing-photo"/>
+                            <p>This project shows the front page of a marketing website meant for a specific business I'm interested in.</p>
+                </section>
+                <section>
+                            <h2>Search Page</h2>
+                            <img src="images/portfolio-2.png" alt="search-page photo"/>
+                            <p>This project searches through a specific database to find information that the user is trying to look up</p>
+                </section>
+                <section>
+                            <h2>Travel App</h2>
+                            <img src="images/portfolio-3.png" alt="travel-app photo"/>
+                            <p>This project compares travel times based on different transportation methods and tells you the best one.</p>
+                </section>
+                <section>
+                            <h2>Map of Favorite Spots</h2>
+                            <img src="images/portfolio-4.png" alt="map-of-favorite-spots-photo"/>
+                            <p>This project uses mapping apis to plot points for my favorite spots in the city for a do-it-yoursel walking tour</p>
+                </section>
+                <section>
+                            <h2>Photo Gallery</h2>
+                            <img src="images/portfolio-5.png" alt="Gallery"/>
+                            <p>This project shows pictures from a recent trip to the viewer and allows them to easily navigate through photos.</p>
+                </section>
+                <section>
+                            <h2>Calculator</h2>
+                            <img src="images/portfolio-6.png" alt="Calculator-photo"/>
+                            <p>Someone can enter in the numbers they want, and press the big blue button and get the result.</p>
+                </section>
+                <section id="contact">
+                    <h2>CONTACT</h2>
+                    <p>If you're interested in chatting or want more information about what I've been working on,I'd love to hear from you!</p>
+                    <ul class="contact">
+                        <li>Phone +1 (111) 555-1234</li>
+                        <li>Email email@yoursite.com</li>
+                    </ul>
+                </section>
+            </main>
+            <footer>
+                <div class="footer">
+                    <div id="name">Marcos Rodríguez</div>
+                    <div id="back"><a href="#top">Back to top</a></div>
+                </div>
+            </footer>
 </body>
-
-<footer class="Copyright"> 
-    <p class="Student-name">Carlos </p>
-<p class="copy">   © Copyright 2018, Roberto and Jamila</p>
-<a href="#Top" class="back-top"><p>Back to top</p></a>
-</footer>
-
-
+</html>
