@@ -106,7 +106,6 @@ footer{
     font-size: 15px
 }
 .back {
-    float:right;
     text-align: right;
     display: inline-block;
     list-style: none;
@@ -164,7 +163,7 @@ footer{
   }
    .n li {
     float: right;
-    width: 17%;
+    width: 2.5 em;
   }
    .n li a {
     color: #333;
