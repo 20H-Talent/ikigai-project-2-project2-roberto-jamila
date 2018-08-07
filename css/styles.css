@@ -104,7 +104,6 @@ ul{
 }
 .back {
     text-align: right;
-    display: inline-block;
     list-style: none;
    font-size: 15px;
 }
@@ -233,7 +232,7 @@ visibility: visible
 .portfolio-name {
     height:10%;
     margin: 0 auto
-    ;padding: 1% 0 0 0
+    ;padding: 1% 0 1% 0
 }
 .primary-content {
     width: 100%;
@@ -263,9 +262,7 @@ visibility: visible
      margin-left: 25%;
      margin-right: 25%;
  }
- .footer-nav .back {
-     
- }
+
  .bottom {
      visibility: visible;
      right: 0;
