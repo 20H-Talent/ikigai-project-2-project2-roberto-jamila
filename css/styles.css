@@ -79,9 +79,6 @@ ul{
 .bottom {
     visibility: hidden;
 }
-
-footer{
-}
 .footer{
     height: 0px;
     visibility: hidden;
@@ -143,9 +140,7 @@ margin: 0 auto
 visibility: visible
 }
 .end-div{visibility: visible}
-footer{
-    height: 2%
-}
+
 .back{visibility: hidden;
     margin: 0 auto;
     padding: 0%;
@@ -344,28 +339,69 @@ footer{
             ;margin: 0;
             height: 200px;
         }
-        .parrafo-inicial{left: 0%;width: 35%;margin:0}
+        .parrafo-inicial{
+            left: 0%;
+            width: 35%;
+            margin:0
+        }
 
-        .parrafo-inicial{position: absolute;}
+        .parrafo-inicial{
+            position: absolute;
+        }
 
-        .image img {width: 50%;border: 1%;border-color: black}
+        .image img {
+            width: 50%;
+            border: 1%;
+            border-color: black
+        }
 
-        .initial{height: 30%;}
+        .initial{
+            height: 30%;
+        }
 
        /* .primary-content{height:75%} */ 
 
-        .texto{text-align: left;width: 50%;font-size: 30px;}
+        .texto{
+            text-align: left;
+            width: 50%;
+            font-size: 30px;
+        }
 
-        img{width: 55%}
+        img{
+            width: 55%
+        }
 
-        .wrapper{height: 50%;width: 100%;position: relative;margin-top: 2%}
+        .wrapper{
+            height: 50%;
+            width: 100%;
+            position: relative;
+            margin-top: 2%
+        }
 
-        .m{display: inline-block;width: 33%;margin: 0%;vertical-align: top}
+        .m{
+            display: inline-block;
+            width: 33%;
+            margin: 0%;
+            vertical-align: top
+        }
 
-        .portfolio-name{height:auto;padding-bottom: 1% }
+        .portfolio-name{
+            height:auto;
+            padding-bottom: 1%
+         }
 
-        .back{visibility: hidden;margin: 0 auto;padding: 0;text-align: center;float: none;right: 50%;}
+        .back{
+            visibility: hidden;
+            margin: 0 auto;
+            padding: 0;
+            text-align: center;
+            float: none;
+            right: 50%;
+        }
 
-        .bottom{right: 0;position: absolute;}
+        .bottom{
+            right: 0;
+            position: absolute;
+        }
 
     }
