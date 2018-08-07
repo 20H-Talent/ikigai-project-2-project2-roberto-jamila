@@ -57,21 +57,12 @@ img {
     border-style: solid;
 }
 .name {
-float:left;
 display: inline-block;
 margin-top: 20px;
 padding-bottom: 20px;
 font-size: 20px;
 }
-.back {
-    float:right;
-    text-align: right;
-    display: inline-block;
-    margin-top: 20px;
-    padding-bottom: 20px;
-    list-style: none;
-    font-size: 20px;
-}
+
 .back a {
     text-decoration: none;
     color: black;
@@ -88,9 +79,135 @@ ul{
 .bottom {
     visibility: hidden;
 }
+
+footer{
+}
+.footer{
+    height: 0px;
+    visibility: hidden;
+    border:  1px 0 0 0;border-color: black
+
+}
+
+
+.primer-footer{
+    position: relative;
+    height: 0px;
+    visibility: visible
+}
+.name{
+    float: left;
+}
+
+.name-footer{
+    width: 40%;
+    margin: 0%;
+    float: left;
+    font-size: 15px
+}
+.back {
+    float:right;
+    text-align: right;
+    display: inline-block;
+    list-style: none;
+   font-size: 15px;
+}
+
+.end-div{
+    visibility: hidden;
+}
+.ul-footer{
+    
+  background: 
+  #d4d4d4;
+}
+footer{background-color: 
+    #d4d4d4;}
+.to{
+    border-top-width: 20px;
+    border-top-color: black;
+    background-color: black;
+    width: 99%;
+    height: 2px;
+    width: 98%;
+    margin:0 auto
+}
+.to-{
+width: 98%;
+margin: 0 auto
+}
 /*MEDIA QUERIES*/
 
 @media (min-width: 768px) {
+.footer{
+    height: 1px;
+visibility: visible
+}
+.end-div{visibility: visible}
+footer{
+    height: 2%
+}
+.back{visibility: hidden;
+    margin: 0 auto;
+    padding: 0%;
+    float: none;
+    width: 0;
+}
+
+
+
+.n{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+   .n li {
+    float: right;
+    width: 17%;
+  }
+   .n li a {
+    color: #333;
+    display: block;
+    padding: .3em;
+    text-decoration: none;
+   }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.end-div{
+    display: inline-table;
+    width: 50%;
+    text-align: center;
+    float: right
+
+}
+
+
+
+
+
+.footer-nav{
+    width: 10%;
+}
+
+
+.primer-footer{
+    height: 0px;
+    visibility: hidden
+}
     .main-nav li {
         display: inline-block;
         margin-top: 4%;
@@ -122,41 +239,21 @@ ul{
 .portfolio-name {
     height:10%;
     margin: 0 auto
-    ;padding: 0
+    ;padding: 1% 0 0 0
 }
 .primary-content {
     width: 100%;
 }
- .marketing {
-    float:left;
-    width: 40%;
-    margin-top: 22px;
+ .m {
+    float:none;
+    width: 44%;
+    margin-left: 5%;
+    display: inline-block;
+    margin: 0 auto;
+    text-align: center
+    ;vertical-align: top
 }
- .search-page {
-     float: right;
-     width: 40%;
-     margin-top: 22px;
- }
- .travel-app {
-    float:left;
-    width: 40%;
-    margin-top: 22px;
-}
-.map {
-    float:right;
-    width: 40%;
-    margin-top: 22px;
-}
-.photo-gallery {
-    float:left;
-    width: 40%;
-    margin-top: 22px;
-}
-.calculator {
-    float:right;
-    width: 40%;
-    margin-top: 22px;
-}
+
  .wrapper {
      width: 100%;
      margin: 0;
@@ -173,11 +270,12 @@ ul{
      margin-right: 25%;
  }
  .footer-nav .back {
-     display: none;
+     
  }
  .bottom {
      visibility: visible;
-     float: right;
+     right: 0;
+     position: absolute
 }
 .bottom li {
     display: inline-block;
@@ -189,27 +287,30 @@ ul{
     color: black;
 }
 .footer-nav .name {
+    width: 10%;
     margin-left: 15px;
     padding: 0;
     margin-top: 16px;
 }
 }
      @media(min-width:1024px){
-        html{height:1200px;}
+        html{height: 100%}
         head{
-            background-color: white
+            background-color: 
+    #d4d4d4;
         }
-        body{
-            background-color: white
+        body{ background-color: 
+            #d4d4d4;
             ;width: 100%;
             height: 100%;
         }
+        .m img {width: 90%}
         nav{
             position:absolute;
             width: 75%;
             top: 0;
             right:0;
-            margin:5% 0 0 0;
+            margin:1% 0 0 0;
         }
         .main-nav a{
             margin: 0;
@@ -229,19 +330,20 @@ ul{
             }
         .main-header{
              width: 100%;
-             margin:5% 0 10% 0
+             margin:0 0 4% 0
             }
         h1{
             top: 0;
             left: 0;
-            margin: 0%;
+            margin: 1% 0 0 0;
             width: 30%
         }
         .imagen{
             position: absolute;
             right: 10%
             ;width: 15%
-            ;margin: 0
+            ;margin: 0;
+            height: 200px;
         }
         .parrafo-inicial{left: 0%;width: 35%;margin:0}
 
@@ -251,7 +353,7 @@ ul{
 
         .initial{height: 30%;}
 
-        .primary-content{height:90%}
+       /* .primary-content{height:75%} */ 
 
         .texto{text-align: left;width: 50%;font-size: 30px;}
 
@@ -259,16 +361,12 @@ ul{
 
         .wrapper{height: 50%;width: 100%;position: relative;margin-top: 2%}
 
+        .m{display: inline-block;width: 33%;margin: 0%;vertical-align: top}
 
+        .portfolio-name{height:auto;padding-bottom: 1% }
 
-        .marketing{left:  0;position: absolute;width: 34%;align-content: center;top: 5%;margin: 2 0 2 0}
+        .back{visibility: hidden;margin: 0 auto;padding: 0;text-align: center;float: none;right: 50%;}
 
-        .search-page{width: 34%;position: absolute;top: 5%;right: 33%;left: 33% ;margin: 2 0 2 0}
+        .bottom{right: 0;position: absolute;}
 
-        .travel-app{right:  0;position: absolute;width: 34%;align-content: center;top: 5%;margin: 2 0 2 0}
-
-        .map{width: 34%;top: 50%;position: absolute;margin: 2 0 2 0}
-        
-        .photo-gallery{width: 34%;right: 33%;left: 33%;top: 50%;position: absolute;margin: 2 0 2 0}
-
-        .calculator{width: 34%;top: 50%;right: 0;position: absolute;right:0;margin: 2 0 2 0}
+    }
