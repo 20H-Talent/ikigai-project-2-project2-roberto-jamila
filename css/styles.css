@@ -224,11 +224,11 @@ visibility: visible
 .imagen {
     float:right;
     width: 40%;
-    height: 250px;
 }
 .texto {
     float: left;
     width: 50%;
+    font-size: 3vw
 }
 .portfolio-name {
     height:10%;
