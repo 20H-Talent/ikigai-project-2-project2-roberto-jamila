@@ -111,7 +111,14 @@ ul{
 
 .end-div{
     visibility: hidden;
+    width: 1px;
+    height: 1px;
+    margin: 0 auto
 }
+.n{
+    height: 1px
+}
+.n li{height: 1px}
 .ul-footer{
     
   background: 
@@ -151,7 +158,7 @@ visibility: visible
 
 
 
-.n{
+.n{height: auto;
     list-style: none;
     margin: 0;
     padding: 0;
@@ -159,6 +166,7 @@ visibility: visible
   }
    .n li {
     float: right;
+    height: auto
   }
    .n li a {
     color: #333;
