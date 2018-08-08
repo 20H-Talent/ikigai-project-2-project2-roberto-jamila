@@ -1,3 +1,6 @@
+
+
+
 /*Main Styles*/
 body {
     background-color: 
@@ -48,14 +51,6 @@ h2 {
 img {
     max-width: 90%;
 }
-
-.footer-nav {
-    padding: 0;
-    margin: 0 1% 0 1%;
-    border-width: 1px 0 0 0;
-	border-color: black;
-    border-style: solid;
-}
 .name {
 display: inline-block;
 margin-top: 20px;
@@ -84,8 +79,6 @@ ul{
     visibility: hidden;
 
 }
-
-
 .primer-footer{
     position: relative;
     height: 0px;
@@ -94,7 +87,6 @@ ul{
 .name{
     float: left;
 }
-
 .name-footer{
     width: 40%;
     margin: 0%;
@@ -174,21 +166,6 @@ visibility: visible
     padding: .3em;
     text-decoration: none;
    }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 .end-div{
     display: inline-table;
     width: 50%;
@@ -196,21 +173,14 @@ visibility: visible
     float: right
 
 }
-
-
-
-
-
 .footer-nav{
     width: 10%;
 }
-
-
 .primer-footer{
     height: 0px;
     visibility: hidden
 }
-    .main-nav li {
+.main-nav li {
         display: inline-block;
         margin-top: 4%;
         margin-left:4%;
@@ -223,7 +193,6 @@ visibility: visible
 .main-nav ul {
     padding: 0;
 }
-
 .initial {
     height: 300px;
     margin-left: 25px;
