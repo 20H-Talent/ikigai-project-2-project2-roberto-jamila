@@ -120,12 +120,10 @@ ul{
 footer{background-color: 
     #d4d4d4;}
 .to{
-    border-top-width: 20px;
-    border-top-color: black;
-    width: 99%;
-    height: 2px;
+    height: 1px;
     width: 98%;
-    margin:0 auto
+    margin:0 auto;
+    background-color: black
 }
 .to-{
 width: 98%;
@@ -161,7 +159,6 @@ visibility: visible
   }
    .n li {
     float: right;
-    width: 2.5em;
   }
    .n li a {
     color: #333;
@@ -327,7 +324,7 @@ margin-bottom: 0}
             }
         .main-header{
              width: 100%;
-             margin:0 0 4% 0
+             margin:0 0 1% 0
             }
         h1{
             top: 0;
@@ -335,12 +332,9 @@ margin-bottom: 0}
             margin: 1% 0 0 0;
             width: 30%
         }
-        .imagen{
-            position: absolute;
-            right: 10%
-            ;width: 15%
+        .imagen{float: right;
             ;margin: 0;
-            height: 200px;
+            width: 35%
         }
         .parrafo-inicial{
             left: 0%;
@@ -357,15 +351,16 @@ margin-bottom: 0}
         }
 
         .initial{
-            height: 30%;
+            height: auto;
+            padding-bottom: 1%;
+            padding:2%;
         }
 
-       /* .primary-content{height:75%} */ 
 
         .texto{
             text-align: left;
             width: 50%;
-            font-size: 30px;
+           font-size: 2vw
         }
 
         img{
@@ -376,7 +371,6 @@ margin-bottom: 0}
             height: 50%;
             width: 100%;
             position: relative;
-            margin-top: 2%
         }
 
         .m{
@@ -404,5 +398,6 @@ margin-bottom: 0}
             right: 0;
             position: absolute;
         }
-
+        p{
+           font-size: 2vw}
     }
